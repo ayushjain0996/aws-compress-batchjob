@@ -7,9 +7,9 @@ library('fst')
 #IAM user credentials to give acces to AWS resources. 
 #IAM user created in this case has List, Read and Write access to S3 resources
 Sys.setenv(
-	"AWS_ACCESS_KEY_ID" = "AKIA35UNGTNGZW4FSBBP",
-	"AWS_SECRET_ACCESS_KEY" = "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",
-	"AWS_DEFAULT_REGION" = "us-west-2"
+	"AWS_ACCESS_KEY_ID" = "my-access-key-id",
+	"AWS_SECRET_ACCESS_KEY" = "my-secret-access-key",
+	"AWS_DEFAULT_REGION" = "location"
 
 )
 
