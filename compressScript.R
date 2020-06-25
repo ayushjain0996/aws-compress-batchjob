@@ -1,7 +1,6 @@
 #This is code for batch jobs to compress heavy TSV files to .fst files and store it in a separate bucket.
 
 library('aws.s3')
-library(aws.ec2metadata)
 library('fst')
 
 
